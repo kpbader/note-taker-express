@@ -1,5 +1,7 @@
 const fs = require('fs');
 const util = require('util');
+const {v4 : uuidv4} = require('uuid') 
+
 
 //look intp promisify from util
 const readAsync = util.promisify(fs.readFile)
@@ -32,11 +34,12 @@ readNotes(){
 }
 
 writeNotes(data){
+    const newId = uuidv4()
     const newNote = {
         title: data.title, 
         text: data.text,
         //find a way to create a unique id for every note
-        //id:
+        id: newId
     }
 
     return this.readNotes().then((notes)=>{
