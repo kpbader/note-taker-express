@@ -12,5 +12,6 @@
 https://kpbnotetaker-app.herokuapp.com/
 
 ## Screenshot
+<img width="1474" alt="Screen Shot 2022-03-13 at 4 33 48 PM" src="https://user-images.githubusercontent.com/94590338/158084080-a877d0e5-b5eb-49bb-a3bf-7008cf6a5c8c.png">
 
 
